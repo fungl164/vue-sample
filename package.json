@@ -1,0 +1,43 @@
+{
+  "private": true,
+  "name": "element-vue-poi-sample",
+  "description": "ElementUI, Vue, Poi sample app",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": {
+    "name": "Luis Fung",
+    "email": "luis.fung@hotmail.com"
+  },
+  "scripts": {
+    "dev": "poi",
+    "build": "poi build",
+    "watch": "poi watch",
+    "report": "poi build --bundle-report",
+    "serve": "serve dist --single",
+    "lint": "eslint src/."
+  },
+  "dependencies": {
+    "codemirror": "^5.37.0",
+    "element-dialog2": "^0.0.5",
+    "element-ui": "^2.3.7",
+    "vue": "^2.5.16",
+    "vue-codemirror": "^4.0.5"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-vue": "^4.5.0",
+    "less": "^3.0.2",
+    "less-loader": "^4.1.0",
+    "poi": "^10.1.5",
+    "poi-preset-eslint": "^9.1.1",
+    "punycode": "^2.1.0",
+    "serve": "^6.5.6",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  }
+}
